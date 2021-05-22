@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  flex: 1;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.List-space-x {
+  padding: 5px;
+  width: 50%;
+  /* border: solid black 1px;  */
+  overflow-y: auto;
+  height: 500px; 
+  margin: auto;
+}
+
+.Search-text {
+  width: 48%; 
+  padding: 5px;
+}
+
+.Div-space-x {
+  display: flex;
+  margin: 10px 0px 0px 10px;
+  flex: 1;
+  width: 97%;
+  flex-direction: column;
+  border: solid rgba(0, 0, 0, 0.05) 1px;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) inset, 0px 0px 5px rgba(122, 122, 122, 0.6);
+}
+.Div-row {
+  display: flex;  
+  flex-direction: row;
+}
+.Div-column {
+  display: flex;  
+  flex-direction: column;
+}
+.Div-image {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.Div-details {
+  font-size: 14px;
+  text-align: justify;
+  padding: 10px;
+}
+.Div-upper-body {
+  padding: 10px;
+  font-size: 12px;
+}
+.Date-span{
+  padding-right: 10px;
+}
+.Div-upper-body-link{
+  padding: 0px 10px 0px 10px;
+} 
+.Div-input {
+  padding: 15px;
+}
+.Div-spinner {
+  padding: 15px;
+}
+.Div-Title {
+  font-weight: bold;
+  padding-right: 10px;
+}
+.Div-status-success {
+  font-size: 11px;
+  font-weight: bold;  
+  color: green;
+}
+.Div-status-fail {
+  font-size: 11px;
+  font-weight: bold;  
+  color: red;
+}
+.Div-upcoming {
+  font-size: 11px;
+  font-weight: bold;  
+  color: rgb(0, 68, 255);
+}
+button {
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+}
+.Div-Header {
+  border-bottom: solid rgb(221, 221, 221) 1px;
+}
